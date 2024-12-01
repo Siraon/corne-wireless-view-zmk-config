@@ -101,6 +101,11 @@
             bindings = <&kp F2>;
             key-positions = <2 3>;
         };
+
+        lshftEnt {
+            bindings = <&kp LS(ENTER)>;
+            key-positions = <31 32 33>;
+        };
     };
 
     keymap {
