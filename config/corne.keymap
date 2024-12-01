@@ -29,32 +29,42 @@
 
         cx {
             bindings = <&kp LC(X)>;
-            key-positions = <24 25>;
+            key-positions = <25 26>;
         };
 
         cc {
             bindings = <&kp LC(C)>;
-            key-positions = <25 26>;
+            key-positions = <26 27>;
         };
 
         cv {
             bindings = <&kp LC(V)>;
-            key-positions = <26 27>;
+            key-positions = <27 28>;
         };
 
         esc {
             bindings = <&kp ESCAPE>;
-            key-positions = <0 1>;
+            key-positions = <1 2>;
         };
 
         alt4 {
             bindings = <&kp LA(F4)>;
-            key-positions = <0 1 2>;
+            key-positions = <1 2 3>;
         };
 
         f5 {
             bindings = <&kp F5>;
             key-positions = <3 4 5>;
+        };
+
+        question {
+            bindings = <&kp QUESTION>;
+            key-positions = <34 35>;
+        };
+
+        cb {
+            bindings = <&kp LC(B)>;
+            key-positions = <28 29>;
         };
     };
 
