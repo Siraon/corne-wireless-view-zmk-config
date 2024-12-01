@@ -12,109 +12,19 @@
     combos {
         compatible = "zmk,combos";
 
-        bks {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <19 20>;
-        };
-
         ralt {
             bindings = <&kp RIGHT_ALT>;
             key-positions = <15 16>;
         };
 
-        f5 {
-            bindings = <&kp F5>;
-            key-positions = <1 5>;
+        bsp {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <19 20>;
         };
 
         ent {
             bindings = <&kp ENTER>;
             key-positions = <31 32>;
-        };
-
-        tilde {
-            bindings = <&kp TILDE>;
-            key-positions = <1 25>;
-        };
-
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <6 7>;
-        };
-
-        shft.P {
-            bindings = <&kp LS(P)>;
-            key-positions = <9 10>;
-        };
-
-        esc {
-            bindings = <&kp ESC>;
-            key-positions = <1 2>;
-        };
-
-        exit {
-            bindings = <&kp LA(F4)>;
-            key-positions = <1 2 3>;
-        };
-
-        ctrlX {
-            bindings = <&kp LC(X)>;
-            key-positions = <25 26>;
-        };
-
-        ctrlC {
-            bindings = <&kp LC(C)>;
-            key-positions = <26 27>;
-        };
-
-        ctrlB {
-            bindings = <&kp LC(B)>;
-            key-positions = <28 29>;
-        };
-
-        ctrlA {
-            bindings = <&kp LC(A)>;
-            key-positions = <13 14>;
-        };
-
-        f2 {
-            bindings = <&kp F2>;
-            key-positions = <2 1>;
-        };
-
-        lshftEnt {
-            bindings = <&kp LS(ENTER)>;
-            key-positions = <31 32 33>;
-        };
-
-        shftsemicolon {
-            bindings = <&kp LS(SEMICOLON)>;
-            key-positions = <21 22>;
-        };
-
-        lshftzO {
-            bindings = <&kp LS(O)>;
-            key-positions = <8 9>;
-        };
-
-        capture {
-            bindings = <&kp LC(LS(C))>;
-            key-positions = <25 26 27>;
-        };
-
-        ctrlZ {
-            bindings = <&kp LC(Z)>;
-            key-positions = <25 36>;
-        };
-
-        shftColum {
-            bindings = <&kp LS(SEMICOLON)>;
-            key-positions = <20 21 22>;
-        };
-
-        cv {
-            bindings = <&kp LC(V)>;
-            key-positions = <27 28>;
         };
     };
 
