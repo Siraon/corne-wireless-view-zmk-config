@@ -71,6 +71,11 @@
             bindings = <&bt BT_CLR>;
             key-positions = <12 13 14 15>;
         };
+
+        ca {
+            bindings = <&kp LC(A)>;
+            key-positions = <13 14>;
+        };
     };
 
     keymap {
