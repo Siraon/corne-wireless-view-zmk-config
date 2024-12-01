@@ -76,6 +76,21 @@
             bindings = <&kp LC(A)>;
             key-positions = <13 14>;
         };
+
+        b {
+            bindings = <&kp B>;
+            key-positions = <30 31>;
+        };
+
+        p {
+            bindings = <&kp LS(P)>;
+            key-positions = <9 10>;
+        };
+
+        o {
+            bindings = <&kp LS(O)>;
+            key-positions = <9 8>;
+        };
     };
 
     keymap {
