@@ -96,6 +96,11 @@
             bindings = <&kp LS(APOSTROPHE)>;
             key-positions = <22 21>;
         };
+
+        f2 {
+            bindings = <&kp F2>;
+            key-positions = <2 3>;
+        };
     };
 
     keymap {
