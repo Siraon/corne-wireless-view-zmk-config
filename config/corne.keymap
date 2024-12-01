@@ -91,6 +91,11 @@
             bindings = <&kp LS(O)>;
             key-positions = <9 8>;
         };
+
+        aps {
+            bindings = <&kp LS(APOSTROPHE)>;
+            key-positions = <22 21>;
+        };
     };
 
     keymap {
