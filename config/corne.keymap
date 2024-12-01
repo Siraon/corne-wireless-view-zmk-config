@@ -26,6 +26,36 @@
             bindings = <&kp ENTER>;
             key-positions = <31 32>;
         };
+
+        cx {
+            bindings = <&kp LC(X)>;
+            key-positions = <24 25>;
+        };
+
+        cc {
+            bindings = <&kp LC(C)>;
+            key-positions = <25 26>;
+        };
+
+        cv {
+            bindings = <&kp LC(V)>;
+            key-positions = <26 27>;
+        };
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <0 1>;
+        };
+
+        alt4 {
+            bindings = <&kp LA(F4)>;
+            key-positions = <0 1 2>;
+        };
+
+        f5 {
+            bindings = <&kp F5>;
+            key-positions = <3 4 5>;
+        };
     };
 
     keymap {
