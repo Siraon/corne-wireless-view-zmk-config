@@ -106,6 +106,16 @@
             bindings = <&kp LS(ENTER)>;
             key-positions = <31 32 33>;
         };
+
+        ctrlZ {
+            bindings = <&kp LC(Z)>;
+            key-positions = <25 36>;
+        };
+
+        tidle {
+            bindings = <&kp TILDE>;
+            key-positions = <1 25>;
+        };
     };
 
     keymap {
