@@ -116,6 +116,11 @@
             bindings = <&kp TILDE>;
             key-positions = <1 25>;
         };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <6 7>;
+        };
     };
 
     keymap {
