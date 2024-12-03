@@ -121,6 +121,11 @@
             bindings = <&kp TAB>;
             key-positions = <6 7>;
         };
+
+        capture {
+            bindings = <&kp LC(LS(C))>;
+            key-positions = <25 26 27>;
+        };
     };
 
     keymap {
