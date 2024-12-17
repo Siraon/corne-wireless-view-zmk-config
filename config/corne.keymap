@@ -67,11 +67,6 @@
             key-positions = <28 29>;
         };
 
-        btclr {
-            bindings = <&bt BT_CLR>;
-            key-positions = <13 14 15 16>;
-        };
-
         ca {
             bindings = <&kp LC(A)>;
             key-positions = <13 14>;
@@ -130,6 +125,11 @@
         auphostropi {
             bindings = <&kp LS(APOSTROPHE)>;
             key-positions = <20 21 22>;
+        };
+
+        layer3 {
+            bindings = <&mo 3>;
+            key-positions = <39 40>;
         };
     };
 
