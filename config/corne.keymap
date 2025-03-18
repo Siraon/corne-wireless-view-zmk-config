@@ -126,6 +126,11 @@
             bindings = <&mo 3>;
             key-positions = <39 40>;
         };
+
+        r_alt {
+            bindings = <&kp RIGHT_ALT>;
+            key-positions = <15 16>;
+        };
     };
 
     keymap {
