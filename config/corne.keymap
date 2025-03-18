@@ -12,11 +12,6 @@
     combos {
         compatible = "zmk,combos";
 
-        ralt {
-            bindings = <&kp RIGHT_ALT>;
-            key-positions = <15 16>;
-        };
-
         bsp {
             bindings = <&kp BACKSPACE>;
             key-positions = <19 20>;
