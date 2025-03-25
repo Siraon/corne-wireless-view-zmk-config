@@ -131,6 +131,11 @@
             bindings = <&kp RIGHT_ALT>;
             key-positions = <15 16>;
         };
+
+        ffff5555 {
+            bindings = <&kp F5>;
+            key-positions = <1 5>;
+        };
     };
 
     keymap {
